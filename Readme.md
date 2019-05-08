@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Снайпер](https://up.htmlacademy.ru/htmlcss/25/user/432537).
-* Наставник: `Неизвестно`.
+- Студент: [Снайпер](https://up.htmlacademy.ru/htmlcss/25/user/432537).
+- Наставник: [Виктор Кан](https://htmlacademy.ru/profile/viktorkan).
 
 ---
 
