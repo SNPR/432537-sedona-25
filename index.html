@@ -16,7 +16,7 @@
             height="72"
           />
         </a>
-        <ul class="site-navigation">
+        <ul class="main-site-navigation">
           <li><a href="information.html">Информация</a></li>
           <li><a href="media-content.html">Фото и видео</a></li>
           <li><a href="state-map.html">Карта штата</a></li>
@@ -52,10 +52,10 @@
         <h2 class="main-feature-title">
           Настоящий городок
         </h2>
-        <p class="feature-number">
+        <p class="main-feature-number">
           — №1 —
         </p>
-        <p class="feature-description">
+        <p class="main-feature-description">
           Седона — не аттракцион для туристов, там течёт своя жизнь
         </p>
         <img
@@ -67,48 +67,48 @@
       </section>
 
       <section class="main-entertainment">
-        <ul class="intertainment-list">
-          <li class="intertainment-item">
-            <h3 class="intertainment-name">
+        <ul class="main-intertainment-list">
+          <li class="main-intertainment-item">
+            <h3 class="main-intertainment-name">
               Жильё
             </h3>
-            <p class="intertainment-description">
+            <p class="main-intertainment-description">
               Рекомендуем пожить в настоящем мотеле, всё как в кино!
             </p>
           </li>
-          <li class="intertainment-item">
-            <h3 class="intertainment-name">
+          <li class="main-intertainment-item">
+            <h3 class="main-intertainment-name">
               Еда
             </h3>
-            <p class="intertainment-description">
+            <p class="main-intertainment-description">
               Всегда заказывайте фирменный бургер, вы не разочаруетесь!
             </p>
           </li>
-          <li class="intertainment-item">
-            <h3 class="intertainment-name">
+          <li class="main-intertainment-item">
+            <h3 class="main-intertainment-name">
               Сувениры
             </h3>
-            <p class="intertainment-description">
+            <p class="main-intertainment-description">
               Не только китайского, но и местного производства!
             </p>
           </li>
         </ul>
       </section>
 
-      <section class="features">
-        <div class="feature-item">
+      <section class="main-features">
+        <div class="main-feature-item">
           <h2 class="main-feature-title">
             Там есть Мост дьявола
           </h2>
-          <p class="feature-number">
+          <p class="main-feature-number">
             — №2 —
           </p>
-          <p class="feature-description">
+          <p class="main-feature-description">
             Да, по нему можно пройти! Если конечно вы осмелитесь
           </p>
         </div>
         <img
-          class="feature-image"
+          class="main-feature-image"
           src="img/main-photo-bridge.jpg"
           width="800"
           height="256"
@@ -116,46 +116,46 @@
         />
       </section>
 
-      <section class="features">
-        <ul class="features-list">
-          <li class="feature-item">
+      <section class="main-features">
+        <ul class="main-features-list">
+          <li class="main-feature-item">
             <h2 class="main-feature-title">
               Небольшая площадь
             </h2>
-            <p class="feature-number">
+            <p class="main-feature-number">
               — №3 —
             </p>
-            <p class="feature-description">
+            <p class="main-feature-description">
               Все достопримечательности находятся очень близко
             </p>
           </li>
-          <li class="feature-item">
+          <li class="main-feature-item">
             <h2 class="main-feature-title">
               Красивая дорога
             </h2>
-            <p class="feature-number">
+            <p class="main-feature-number">
               — №4 —
             </p>
-            <p class="feature-description">
+            <p class="main-feature-description">
               Ехать в Седону из Лас-Вегаса совсем не скучно!
             </p>
           </li>
-          <li class="feature-item">
+          <li class="main-feature-item">
             <h2 class="main-feature-title">
               Мало туристов
             </h2>
-            <p class="feature-number">
+            <p class="main-feature-number">
               — №5 —
             </p>
-            <p class="feature-description">
+            <p class="main-feature-description">
               Большинство едет в гранд каньон и толпится там
             </p>
           </li>
         </ul>
       </section>
 
-      <section class="offer">
-        <p class="offer-question">
+      <section class="main-offer">
+        <p class="main-offer-question">
           Заинтересовались?
         </p>
         <p>
@@ -164,35 +164,77 @@
         </p>
       </section>
 
-      <section class="interactive-map"></section>
+      <section class="main-interactive-map"></section>
 
-      <section class="hotel-order-form">
-        <h3>Поиск гостиницы в Седоне</h3>
+      <section class="main-hotel-order-popup">
+        <h3 class="main-hotel-order-popup-header">Поиск гостиницы в Седоне</h3>
       </section>
-      <!-- <form></form> -->
+      <form
+        class="main-hotel-order-form"
+        action="https://echo.htmlacademy.ru"
+        method="post"
+      >
+        <p class="main-hotel-order-form-item">
+          <label class="main-hotel-order-form-item-label">
+            Дата заезда:
+            <input type="date" class="main-hotel-order-form-item-input" />
+          </label>
+        </p>
+        <p class="main-hotel-order-form-item">
+          <label class="main-hotel-order-form-item-label">
+            Дата выезда:
+            <input type="date" class="main-hotel-order-form-item-input" />
+          </label>
+        </p>
+        <label class="main-hotel-order-form-item-label">
+          Взрослые:
+          <input
+            type="number"
+            min="1"
+            max="10"
+            class="main-hotel-order-form-item-input"
+          />
+        </label>
+        <label class="main-hotel-order-form-item-label">
+          Дети:
+          <input
+            type="number"
+            min="0"
+            max="10"
+            class="main-hotel-order-form-item-input"
+          />
+        </label>
+        <p class="main-hotel-order-form-item">
+          <button type="submit" class="main-hotel-order-form-submit-button">
+            Найти
+          </button>
+        </p>
+      </form>
     </main>
 
     <footer class="main-footer">
-      <p class="footer-hashtag">
+      <p class="main-footer-hashtag">
         #visitsedona
       </p>
-      <div class="footer-social">
+      <div class="main-footer-social">
         <ul>
           <li>
-            <a class="social-button" href="#">Twitter</a>
+            <a class="main-social-button" href="#">Twitter</a>
           </li>
           <li>
-            <a class="social-button" href="#">Facebook</a>
+            <a class="main-social-button" href="#">Facebook</a>
           </li>
           <li>
-            <a class="social-button" href="#">YouTube</a>
+            <a class="main-social-button" href="#">YouTube</a>
           </li>
         </ul>
       </div>
 
-      <p class="footer-copyright">
+      <p class="main-footer-copyright">
         <b>Website by</b>
-        <a class="button" href="https://htmlacademy.ru/intensive/htmlcss"
+        <a
+          class="main-html-academy-logo"
+          href="https://htmlacademy.ru/intensive/htmlcss"
           ><img
             src="img/main-htmlacademy-logo.svg"
             width="115"
