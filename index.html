@@ -168,48 +168,48 @@
 
       <section class="main-hotel-order-popup">
         <h3 class="main-hotel-order-popup-header">Поиск гостиницы в Седоне</h3>
+        <form
+          class="main-hotel-order-form"
+          action="https://echo.htmlacademy.ru"
+          method="post"
+        >
+          <p class="main-hotel-order-form-item">
+            <label class="main-hotel-order-form-item-label">
+              Дата заезда:
+              <input type="date" class="main-hotel-order-form-item-input" />
+            </label>
+          </p>
+          <p class="main-hotel-order-form-item">
+            <label class="main-hotel-order-form-item-label">
+              Дата выезда:
+              <input type="date" class="main-hotel-order-form-item-input" />
+            </label>
+          </p>
+          <label class="main-hotel-order-form-item-label">
+            Взрослые:
+            <input
+              type="number"
+              min="1"
+              max="10"
+              class="main-hotel-order-form-item-input"
+            />
+          </label>
+          <label class="main-hotel-order-form-item-label">
+            Дети:
+            <input
+              type="number"
+              min="0"
+              max="10"
+              class="main-hotel-order-form-item-input"
+            />
+          </label>
+          <p class="main-hotel-order-form-item">
+            <button type="submit" class="main-hotel-order-form-submit-button">
+              Найти
+            </button>
+          </p>
+        </form>
       </section>
-      <form
-        class="main-hotel-order-form"
-        action="https://echo.htmlacademy.ru"
-        method="post"
-      >
-        <p class="main-hotel-order-form-item">
-          <label class="main-hotel-order-form-item-label">
-            Дата заезда:
-            <input type="date" class="main-hotel-order-form-item-input" />
-          </label>
-        </p>
-        <p class="main-hotel-order-form-item">
-          <label class="main-hotel-order-form-item-label">
-            Дата выезда:
-            <input type="date" class="main-hotel-order-form-item-input" />
-          </label>
-        </p>
-        <label class="main-hotel-order-form-item-label">
-          Взрослые:
-          <input
-            type="number"
-            min="1"
-            max="10"
-            class="main-hotel-order-form-item-input"
-          />
-        </label>
-        <label class="main-hotel-order-form-item-label">
-          Дети:
-          <input
-            type="number"
-            min="0"
-            max="10"
-            class="main-hotel-order-form-item-input"
-          />
-        </label>
-        <p class="main-hotel-order-form-item">
-          <button type="submit" class="main-hotel-order-form-submit-button">
-            Найти
-          </button>
-        </p>
-      </form>
     </main>
 
     <footer class="main-footer">
