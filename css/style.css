@@ -108,3 +108,17 @@ a:active {
 .entertainment-list-item h3 {
   font-size: 21px;
 }
+
+.container-offer {
+  text-align: center;
+}
+
+.container-offer p:first-child {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.container-offer p:last-child {
+  line-height: 24px;
+}
