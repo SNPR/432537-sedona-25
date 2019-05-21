@@ -60,3 +60,16 @@ a:active {
   font-size: 14px;
   line-height: 26px;
 }
+
+.feature-title {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.feature-number {
+  font-size: 14px;
+}
+
+.feature-description {
+  font-size: 14px;
+}
