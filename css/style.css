@@ -189,3 +189,39 @@ a:active {
   background-color: #5496bd;
   color: rgba(255, 255, 255, 0.3);
 }
+
+.footer-hashtag {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.footer-social {
+  list-style: none;
+}
+
+.footer-social-button {
+  background-color: #81b3d2;
+  color: white;
+  padding: 0 10px;
+}
+
+.footer-social-button:hover,
+.footer-social-button:focus {
+  background-color: #669ec0;
+  color: white;
+}
+
+.footer-social-button:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-copyright > b {
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.copyright-html-academy-logo img {
+  fill: red;
+}
