@@ -84,7 +84,7 @@ a:active {
   background-color: #eeeeee;
 }
 
-.features-list  {
+.features-list {
   list-style: none;
   padding: 0;
 }
@@ -97,4 +97,14 @@ a:active {
 .navigation-logo img {
   display: block;
   margin: auto;
+}
+
+.entertainment-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.entertainment-list-item h3 {
+  font-size: 21px;
 }
