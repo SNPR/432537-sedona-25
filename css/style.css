@@ -49,14 +49,14 @@ a:active {
   list-style: none;
 }
 
-.description-slogan {
+.container-description p:first-child {
   line-height: 26px;
   font-size: 21px;
   font-weight: 700;
   text-align: center;
 }
 
-.description-features-intro {
+.container-description p:last-child {
   line-height: 26px;
   text-align: center;
 }
