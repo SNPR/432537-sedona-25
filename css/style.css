@@ -9,6 +9,20 @@ body {
   text-transform: uppercase;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover,
+a:focus {
+  color: #81b3d2;
+}
+
+a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -18,4 +32,11 @@ body {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.container-logo {
+  background-image: url("../img/main-photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: auto auto;
 }
