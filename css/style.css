@@ -36,9 +36,8 @@ a:active {
 
 .container-logo {
   background-image: url("../img/main-photo.jpg");
-  background-position: top center;
+  background-position: top right;
   background-repeat: no-repeat;
-  background-size: auto auto;
 }
 
 .header-navigation {
@@ -77,6 +76,11 @@ a:active {
 }
 
 .container-slogan {
+  display: block;
+  margin: auto;
+}
+
+.navigation-logo img {
   display: block;
   margin: auto;
 }
