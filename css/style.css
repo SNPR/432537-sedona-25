@@ -225,3 +225,68 @@ a:active {
 .copyright-html-academy-logo img {
   fill: red;
 }
+
+.hotels .navigation-list li:last-child {
+  color: #766357;
+}
+
+.hotels .search-form-field {
+  border: none;
+}
+
+.hotels .form-field-list {
+  list-style: none;
+}
+
+.hotels-list {
+  list-style: none;
+}
+
+.hotel-name h2 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.hotel-additional-info {
+  font-weight: 700;
+  color: white;
+  background-color: #81b3d2;
+  padding: 5px 15px;
+}
+
+.hotel-additional-info:hover,
+.hotel-additional-info:focus {
+  background-color: #669ec0;
+  color: white;
+}
+
+.hotel-additional-info:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.hotel-reserve {
+  font-weight: 700;
+  color: white;
+  background-color: #766357;
+  padding: 5px 15px;
+}
+
+.hotel-reserve:hover,
+.hotel-reserve:focus {
+  background-color: #604e43;
+  color: white;
+}
+
+.hotel-reserve:active {
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.hotel-rating {
+  color: #666666;
+  background-color: #f2f2f2;
+  width: 110px;
+  text-align: center;
+}
