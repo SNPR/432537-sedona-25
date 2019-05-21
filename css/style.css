@@ -122,3 +122,70 @@ a:active {
 .container-offer p:last-child {
   line-height: 24px;
 }
+
+.container-hotel-order-popup {
+  line-height: 26px;
+  font-weight: 700;
+  width: 568px;
+  display: block;
+  margin: auto;
+}
+
+.container-hotel-search-button {
+  width: inherit;
+  text-transform: inherit;
+  font-weight: 700;
+  font-size: 21px;
+  color: white;
+  background-color: #766357;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.container-hotel-search-button:hover,
+.container-hotel-search-button:focus {
+  background-color: #604e43;
+}
+
+.container-hotel-search-button:active {
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.container-hotel-order-popup input {
+  background-color: #f2f2f2;
+  height: 38px;
+  color: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  line-height: inherit;
+}
+
+.container-hotel-order-popup input:hover {
+  background-color: #ebebeb;
+}
+.container-hotel-order-popup input:focus {
+  background-color: white;
+}
+
+.popup-form-submit-button {
+  color: white;
+  line-height: inherit;
+  font-size: 21px;
+  font-family: inherit;
+  text-transform: inherit;
+  font-weight: inherit;
+  background-color: #81b3d2;
+  padding: 15px 0;
+  width: 458px;
+}
+
+.popup-form-submit-button:focus,
+.popup-form-submit-button:hover {
+  background-color: #669ec0;
+}
+
+.popup-form-submit-button:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
