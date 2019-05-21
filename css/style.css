@@ -23,11 +23,6 @@ a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.header-navigation {
-  line-height: 26px;
-  font-weight: 700;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -44,4 +39,24 @@ a:active {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: auto auto;
+}
+
+.header-navigation {
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.header-navigation ul {
+  list-style: none;
+}
+
+.description-slogan {
+  line-height: 26px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.description-features-intro {
+  font-size: 14px;
+  line-height: 26px;
 }
