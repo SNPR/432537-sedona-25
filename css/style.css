@@ -51,7 +51,7 @@ a:active {
 
 .description-slogan {
   line-height: 26px;
-  font-size: 26px;
+  font-size: 21px;
   font-weight: 700;
   text-align: center;
 }
@@ -73,6 +73,20 @@ a:active {
 
 .feature-description {
   text-align: center;
+}
+
+.container-features > .feature-item {
+  color: white;
+  background-color: #81b3d2;
+}
+
+.features-list > .feature-item {
+  background-color: #eeeeee;
+}
+
+.features-list  {
+  list-style: none;
+  padding: 0;
 }
 
 .container-slogan {
