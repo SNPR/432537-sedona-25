@@ -54,22 +54,29 @@ a:active {
   line-height: 26px;
   font-size: 26px;
   font-weight: 700;
+  text-align: center;
 }
 
 .description-features-intro {
-  font-size: 14px;
   line-height: 26px;
+  text-align: center;
 }
 
 .feature-title {
   font-size: 21px;
   font-weight: 700;
+  text-align: center;
 }
 
 .feature-number {
-  font-size: 14px;
+  text-align: center;
 }
 
 .feature-description {
-  font-size: 14px;
+  text-align: center;
+}
+
+.container-slogan {
+  display: block;
+  margin: auto;
 }
