@@ -290,3 +290,40 @@ a:active {
   width: 110px;
   text-align: center;
 }
+
+.hotel-search-form {
+  background-color: #243337;
+  background: url("../img/main-photo-blurred.jpg") left bottom;
+}
+
+.search-form-field {
+  color: white;
+}
+
+.form-field-legeng {
+  padding-top: 15px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.apartment-cost {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.search-form-button {
+  border: 1px solid white;
+  color: white;
+  text-transform: inherit;
+  background-color: transparent;
+  padding: 5px 20px;
+}
+
+.search-form-button:hover,
+.search-form-button:focus {
+  border: 1px solid white;
+  color: inherit;
+  background-color: white;
+  padding: 5px 20px;
+}
