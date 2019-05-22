@@ -327,3 +327,43 @@ a:active {
   background-color: white;
   padding: 5px 20px;
 }
+
+.result {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.sort {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sort-options-list {
+  list-style: none;
+}
+
+.sort-option-list-item {
+  color: rgba(0, 0, 0, 0.3);
+  -webkit-text-decoration: underline dotted #81b3d2;
+  text-decoration: underline dotted #81b3d2;
+}
+
+.sort-option-list-item:hover,
+.sort-option-list-item:focus {
+  color: #81b3d2;
+  -webkit-text-decoration: underline dotted #81b3d2;
+  text-decoration: underline dotted #81b3d2;
+}
+
+.sort-option-list-item:active {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.list-item-active {
+  color: #81b3d2;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
