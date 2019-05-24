@@ -70,11 +70,16 @@ a:active {
   z-index: 1;
 }
 
+.container-description {
+  margin-bottom: 52px;
+}
+
 .container-description p:first-child {
   line-height: 26px;
   font-size: 21px;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 26px;
 }
 
 .container-description p:last-child {
@@ -94,6 +99,10 @@ a:active {
 
 .feature-description {
   text-align: center;
+}
+
+.container-features {
+  display: flex;
 }
 
 .container-features > .feature-item {
