@@ -39,19 +39,24 @@ a:active {
   margin: 0 auto;
 }
 
-.container-logo {
-  background-image: url("../img/main-photo.jpg");
-  background-position: top right;
-  background-repeat: no-repeat;
-}
-
 .header-navigation {
   line-height: 26px;
   font-weight: 700;
+  background-color: white;
 }
 
 .header-navigation ul {
   list-style: none;
+}
+
+.container-logo {
+  width: 100%;
+  background-image: url("../img/main-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -84px;
+  z-index: 1;
+  min-height: 547px;
 }
 
 .container-description p:first-child {
@@ -96,12 +101,15 @@ a:active {
 
 .container-slogan {
   display: block;
-  margin: auto;
+  position: absolute;
+  left: 723px;
+  top: 130px;
 }
 
-.navigation-logo img {
+.navigation-logo {
   display: block;
-  margin: auto;
+  margin-top: -41px;
+  margin-left: 529px;
 }
 
 .entertainment-list {
