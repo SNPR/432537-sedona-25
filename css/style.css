@@ -34,6 +34,11 @@ a:active {
   overflow: hidden;
 }
 
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .container-logo {
   background-image: url("../img/main-photo.jpg");
   background-position: top right;
