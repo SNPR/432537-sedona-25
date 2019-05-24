@@ -43,6 +43,7 @@ a:active {
   line-height: 26px;
   font-weight: 700;
   background-color: white;
+  position: relative;
 }
 
 .header-navigation ul {
@@ -139,9 +140,11 @@ a:active {
 }
 
 .navigation-logo {
-  display: block;
-  margin-top: -41px;
-  margin-left: 529px;
+  top: 0;
+  left: 50%;
+  margin-left: -70px;
+  position: absolute;
+  z-index: 1;
 }
 
 .entertainment-list {
