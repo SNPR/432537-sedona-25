@@ -69,7 +69,8 @@ a:active {
   width: 459px;
   min-height: 353px;
   top: 76px;
-  left: 370px;
+  left: 50%;
+  margin-left: -229px;
 }
 
 .container-logo::after {
