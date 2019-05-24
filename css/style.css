@@ -55,8 +55,19 @@ a:active {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 -84px;
+  min-height: 507px;
+  margin-bottom: 61px;
+}
+
+.container-logo::after {
+  position: absolute;
+  content: "";
+  width: 1200px;
+  min-height: 200px;
+  background-image: url("../img/main-photo-mask.svg");
+  background-repeat: no-repeat;
+  top: 507px;
   z-index: 1;
-  min-height: 547px;
 }
 
 .container-description p:first-child {
