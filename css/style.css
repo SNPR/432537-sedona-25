@@ -118,6 +118,7 @@ a:active {
 
 .container-features {
   display: flex;
+  margin-bottom: 140px;
 }
 
 .container-features > .feature-item {
@@ -152,6 +153,42 @@ a:active {
   list-style: none;
   padding: 0;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+
+.entertainment-list-item {
+  position: relative;
+}
+
+.entertainment-list-item::before {
+  content: "";
+  position: absolute;
+}
+
+.entertainment-list-item:first-child::before {
+  background-image: url("../img/main-icon-house.svg");
+  width: 75px;
+  height: 72px;
+  left: 90px;
+  top: -80px;
+}
+
+.entertainment-list-item:nth-child(2)::before {
+  background-image: url("../img/main-icon-hamburger.svg");
+  width: 74px;
+  height: 70px;
+  left: 112px;
+  top: -79px;
+}
+
+.entertainment-list-item:last-child::before {
+  background-image: url("../img/main-icon-present.svg");
+  width: 64px;
+  height: 76px;
+  left: 105px;
+  top: -83px;
 }
 
 .entertainment-list-item h3 {
