@@ -231,6 +231,40 @@ a:active {
   fill: red;
 }
 
+.main-header {
+  margin: 0;
+  padding: 0;
+  height: 56px;
+}
+
+.navigation-list {
+  display: flex;
+  margin: 0;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+.navigation-list li {
+  width: 239px;
+  padding-top: 14px;
+}
+
+.navigation-list li:first-child {
+  text-align: left;
+}
+
+.navigation-list li:nth-child(2) {
+  text-align: left;
+}
+
+.navigation-list li:nth-child(3) {
+  text-align: right;
+  margin-left: auto;
+}
+
+.navigation-list li:last-child {
+  text-align: right;
+}
+
 .hotels .navigation-list li:last-child {
   color: #766357;
 }
