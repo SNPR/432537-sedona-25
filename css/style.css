@@ -217,10 +217,12 @@ a:active {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
+  margin-bottom: 23px;
 }
 
 .container-offer p:last-child {
   line-height: 24px;
+  margin-bottom: 46px;
 }
 
 .container-hotel-order-popup {
