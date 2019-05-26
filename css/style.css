@@ -483,7 +483,12 @@ a:active {
 
 .hotel-search-form {
   background-color: #243337;
-  background: url("../img/main-photo-blurred.jpg") left bottom;
+  background: url("../img/main-photo-blurred.jpg") left bottom no-repeat;
+  background-size: cover;
+  background-position: 0 -296px;
+  margin-bottom: 61px;
+  display: flex;
+  min-height: 217px;
 }
 
 .search-form-field {
@@ -494,6 +499,13 @@ a:active {
   padding-top: 15px;
   font-weight: 700;
   font-size: 16px;
+}
+
+.apartment-cost-wrapper {
+  display: flex;
+  margin-left: auto;
+  flex-direction: column;
+  align-items: center;
 }
 
 .apartment-cost {
@@ -508,6 +520,7 @@ a:active {
   text-transform: inherit;
   background-color: transparent;
   padding: 5px 20px;
+  height: 32px;
 }
 
 .search-form-button:hover,
