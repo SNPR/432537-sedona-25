@@ -149,6 +149,10 @@ a:active {
   z-index: 1;
 }
 
+.container-entertainment {
+  margin-bottom: 71px;
+}
+
 .entertainment-list {
   list-style: none;
   padding: 0;
