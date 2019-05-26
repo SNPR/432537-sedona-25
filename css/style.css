@@ -486,7 +486,7 @@ a:active {
   background: url("../img/main-photo-blurred.jpg") left bottom no-repeat;
   background-size: cover;
   background-position: 0 -296px;
-  margin-bottom: 61px;
+  margin-bottom: 10px;
   display: flex;
   min-height: 217px;
 }
@@ -499,6 +499,11 @@ a:active {
   padding-top: 15px;
   font-weight: 700;
   font-size: 16px;
+}
+
+.hotel-search-result {
+  display: flex;
+  padding-left: 71px;
 }
 
 .apartment-cost-wrapper {
@@ -540,16 +545,25 @@ a:active {
 .sort {
   font-size: 12px;
   line-height: 18px;
+  display: flex;
+  align-items: center;
+  margin-left: 48px;
 }
 
 .sort-options-list {
   list-style: none;
+  display: flex;
 }
 
 .sort-option-list-item {
   color: rgba(0, 0, 0, 0.3);
   -webkit-text-decoration: underline dotted #81b3d2;
   text-decoration: underline dotted #81b3d2;
+  margin-left: 33px;
+}
+
+.sort-option-list-item:first-of-type {
+  margin-left: 0;
 }
 
 .sort-option-list-item:hover,
