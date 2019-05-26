@@ -233,6 +233,13 @@ a:active {
   margin: auto;
 }
 
+.order-popup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
 .container-hotel-search-button {
   width: inherit;
   text-transform: inherit;
@@ -254,6 +261,14 @@ a:active {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.popup-form-item-label input[type="date"] {
+  width: 346px;
+}
+
+.popup-form-item-label input[type="number"] {
+  width: 114px;
+}
+
 .container-hotel-order-popup input {
   background-color: #f2f2f2;
   height: 38px;
@@ -269,7 +284,12 @@ a:active {
 .container-hotel-order-popup input:focus {
   background-color: white;
 }
-
+.popup-form-item-people-amount {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  margin-bottom: 44px;
+}
 .popup-form-submit-button {
   color: white;
   line-height: inherit;
