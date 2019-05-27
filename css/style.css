@@ -423,7 +423,7 @@ a:active {
 }
 
 .hotels-container {
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 
 .hotels-list {
@@ -433,10 +433,9 @@ a:active {
 }
 
 .hotel-item {
-  padding-top: 2px;
   border-bottom: 1px solid #f9f9f9;
   display: flex;
-  margin-bottom: 51px;
+  margin-bottom: 55px;
 }
 
 .hotel-item:last-of-type {
