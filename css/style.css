@@ -335,26 +335,24 @@ a:active {
 .main-footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 21px 108px 21px 132px;
 }
 
 .footer-hashtag {
   font-size: 21px;
   font-weight: 700;
   line-height: 26px;
-  margin-top: 47px;
-  margin-left: 132px;
 }
 
 .footer-social {
   list-style: none;
   display: flex;
-  margin-top: 50px;
 }
 
 .footer-social-button {
   background-color: #81b3d2;
   color: white;
-  padding: 0 10px;
 }
 
 .footer-social-button:hover,
@@ -369,17 +367,13 @@ a:active {
 }
 
 .footer-copyright {
-  margin-top: 23px;
-  margin-right: 105px;
+  display: flex;
+  align-items: center;
 }
 
 .footer-copyright > b {
   line-height: 26px;
   font-weight: 400;
-}
-
-.copyright-html-academy-logo img {
-  fill: red;
 }
 
 .main-header {
