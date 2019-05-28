@@ -74,7 +74,7 @@ a:active {
   background-image: url("../img/main-photo-mask.svg");
   background-repeat: no-repeat;
   left: 0;
-  bottom: -1px;
+  bottom: 0;
 }
 
 .main-slogan {
