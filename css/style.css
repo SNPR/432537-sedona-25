@@ -82,6 +82,7 @@ a:active {
 }
 
 .description {
+  padding: 0 355px;
   margin-bottom: 52px;
 }
 
@@ -102,16 +103,19 @@ a:active {
   font-size: 21px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 24px;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .feature-number {
   text-align: center;
-  margin-bottom: 21px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .feature-description {
   text-align: center;
+  margin: 0;
 }
 
 .features {
@@ -130,16 +134,14 @@ a:active {
 .features > .feature-item {
   color: white;
   background-color: #81b3d2;
+  width: 400px;
+  padding: 46px 60px 60px;
 }
 
 .features-list > .feature-item {
   background-color: #eeeeee;
-  padding-bottom: 45px;
-}
-
-.feature-item {
-  width: 400px;
-  padding-top: 30px;
+  max-width: 400px;
+  padding: 50px 95px 56px;
 }
 
 .features-list {
