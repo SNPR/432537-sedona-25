@@ -63,6 +63,7 @@ a:active {
   background-position: 0 -84px;
   min-height: 507px;
   text-align: center;
+  margin-bottom: 61px;
 }
 
 .logo::after {
