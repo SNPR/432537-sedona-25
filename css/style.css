@@ -52,34 +52,32 @@ a:active {
 
 .main-container {
   position: relative;
-  padding-top: 75px
 }
 
 .logo {
-  position: absolute;
+  position: relative;
   width: 100%;
-  top: 0;
   background-image: url("../img/main-photo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 -84px;
   min-height: 507px;
-  z-index: -1;
+  text-align: center;
 }
 
 .logo::after {
   position: absolute;
   content: "";
-  width: 1200px;
-  min-height: 200px;
+  width: 100%;
+  min-height: 57px;
   background-image: url("../img/main-photo-mask.svg");
   background-repeat: no-repeat;
-  top: 451px;
+  left: 0;
+  bottom: -1px;
 }
 
 .main-slogan {
-  display: block;
-  margin: 0 auto 140px;
+  padding-top: 75px;
 }
 
 .description {
@@ -430,7 +428,7 @@ a:active {
 .hotel-item {
   border-bottom: 1px solid #f9f9f9;
   display: flex;
-  margin-bottom: 55px;
+  margin-bottom: 61px;
 }
 
 .hotel-item:last-of-type {
@@ -439,7 +437,7 @@ a:active {
 
 .hotel-name h2 {
   font-size: 21px;
-  line-height: 26px;
+  line-height: 18px;
   font-weight: 700;
   margin: 0;
 }
