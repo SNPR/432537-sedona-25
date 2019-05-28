@@ -52,29 +52,19 @@ a:active {
 
 .main-container {
   position: relative;
+  padding-top: 75px
 }
 
 .logo {
-  position: relative;
+  position: absolute;
   width: 100%;
+  top: 0;
   background-image: url("../img/main-photo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 -84px;
   min-height: 507px;
-  margin-bottom: 61px;
-}
-
-.logo::before {
-  position: absolute;
-  content: "";
-  background-image: url("../img/main-welcome-slogan.svg");
-  background-repeat: no-repeat;
-  width: 459px;
-  min-height: 353px;
-  top: 76px;
-  left: 50%;
-  margin-left: -229px;
+  z-index: -1;
 }
 
 .logo::after {
@@ -85,6 +75,11 @@ a:active {
   background-image: url("../img/main-photo-mask.svg");
   background-repeat: no-repeat;
   top: 451px;
+}
+
+.main-slogan {
+  display: block;
+  margin: 0 auto 140px;
 }
 
 .description {
