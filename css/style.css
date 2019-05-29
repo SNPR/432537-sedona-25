@@ -135,13 +135,16 @@ a:active {
   color: white;
   background-color: #81b3d2;
   width: 400px;
-  padding: 46px 60px 60px;
+  padding: 47px 49px 58px;
 }
 
 .features-list > .feature-item {
+  box-sizing: border-box;
   background-color: #eeeeee;
-  max-width: 400px;
-  padding: 50px 95px 56px;
+  width: 400px;
+  margin: 0;
+  padding: 46px 69px;
+  padding-bottom: 60px;
 }
 
 .features-list {
