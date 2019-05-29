@@ -292,6 +292,16 @@ a:active {
   padding-left: 10px;
 }
 
+.popup-form-item-people-amount input[type="number"] {
+  width: 102px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.popup-form-item-people-amount input[type="number"]:first-of-type {
+  margin-right: 48px;
+}
+
 .hotel-order-popup input {
   background-color: #f2f2f2;
   height: 38px;
@@ -311,9 +321,16 @@ a:active {
 
 .popup-form-item-people-amount {
   display: flex;
-  justify-content: space-between;
   width: 450px;
   margin-bottom: 44px;
+}
+
+.popup-form-item-people-amount label:first-of-type {
+  margin-right: 43px;
+}
+
+.popup-form-item-people-amount label:last-of-type {
+  margin-right: 29px;
 }
 
 .popup-form-submit-button {
