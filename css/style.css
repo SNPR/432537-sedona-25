@@ -166,14 +166,16 @@ a:active {
 .entertainment-list {
   list-style: none;
   padding: 0;
+  margin: 0;
   text-align: center;
   display: flex;
   justify-content: space-around;
-  margin-left: 10px;
 }
 
 .entertainment-list-item {
   position: relative;
+  width: 400px;
+  padding: 0 50px;
 }
 
 .entertainment-list-item::before {
@@ -185,24 +187,27 @@ a:active {
   background-image: url("../img/main-icon-house.svg");
   width: 75px;
   height: 72px;
-  left: 90px;
+  left: 50%;
   top: -80px;
+  margin-left: -37px;
 }
 
 .entertainment-list-item:nth-child(2)::before {
   background-image: url("../img/main-icon-hamburger.svg");
   width: 74px;
   height: 70px;
-  left: 112px;
+  left: 50%;
   top: -79px;
+  margin-left: -37px;
 }
 
 .entertainment-list-item:last-child::before {
   background-image: url("../img/main-icon-present.svg");
   width: 64px;
   height: 76px;
-  left: 105px;
-  top: -83px;
+  left: 50%;
+  top: -85px;
+  margin-left: -32px;
 }
 
 .entertainment-list-item h3 {
