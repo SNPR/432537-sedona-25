@@ -536,7 +536,8 @@ a:active {
   background-position: 0 -296px;
   margin-bottom: 10px;
   display: flex;
-  min-height: 217px;
+  min-height: 190px;
+  padding: 27px 60px 0px;
 }
 
 .search-form-field {
@@ -544,7 +545,6 @@ a:active {
 }
 
 .form-field-legeng {
-  padding-top: 15px;
   font-weight: 700;
   font-size: 16px;
 }
