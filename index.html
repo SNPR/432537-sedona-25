@@ -177,60 +177,67 @@
             Заинтересовались?
           </p>
           <p>
-            Укажите предполагаемые даты поездки, и мы покажем вам лучшие
-            предложения гостиниц в седоне
+            Укажите предполагаемые даты поездки, <br />
+            и мы покажем вам лучшие предложения гостиниц в седоне
           </p>
         </section>
 
-        <section class="hotel-order-popup">
-          <button class="hotel-search-button">
-            Поиск гостиницы в Седоне
-          </button>
-          <form
-            class="order-popup-form"
-            action="https://echo.htmlacademy.ru"
-            method="post"
-          >
-            <p class="popup-form-item">
-              <label class="popup-form-item-label">
-                Дата заезда:
-                <input type="date" class="popup-form-item-input" />
-              </label>
-            </p>
-            <p class="popup-form-item">
-              <label class="popup-form-item-label">
-                Дата выезда:
-                <input type="date" class="popup-form-item-input" />
-              </label>
-            </p>
-            <div class="popup-form-item-people-amount">
-              <label class="popup-form-item-label">
-                Взрослые:
-                <input
-                  type="number"
-                  min="1"
-                  max="10"
-                  class="popup-form-item-input"
-                />
-              </label>
-              <label class="popup-form-item-label">
-                Дети:
-                <input
-                  type="number"
-                  min="0"
-                  max="10"
-                  class="popup-form-item-input"
-                />
-              </label>
-            </div>
-            <p class="popup-form-item">
-              <button type="submit" class="popup-form-submit-button">
-                Найти
-              </button>
-            </p>
-          </form>
+        <section class="hotel-order">
+          <img
+            src="img/main-map.jpg"
+            width="1200"
+            height="593"
+            alt="Карта с адресом гостиницы"
+          />
+          <div class="hotel-order-popup">
+            <button class="hotel-search-button">
+              Поиск гостиницы в Седоне
+            </button>
+            <form
+              class="order-popup-form"
+              action="https://echo.htmlacademy.ru"
+              method="post"
+            >
+              <p class="popup-form-item">
+                <label class="popup-form-item-label">
+                  Дата заезда:
+                  <input type="date" class="popup-form-item-input" />
+                </label>
+              </p>
+              <p class="popup-form-item">
+                <label class="popup-form-item-label">
+                  Дата выезда:
+                  <input type="date" class="popup-form-item-input" />
+                </label>
+              </p>
+              <div class="popup-form-item-people-amount">
+                <label class="popup-form-item-label">
+                  Взрослые:
+                  <input
+                    type="number"
+                    min="1"
+                    max="10"
+                    class="popup-form-item-input"
+                  />
+                </label>
+                <label class="popup-form-item-label">
+                  Дети:
+                  <input
+                    type="number"
+                    min="0"
+                    max="10"
+                    class="popup-form-item-input"
+                  />
+                </label>
+              </div>
+              <p class="popup-form-item">
+                <button type="submit" class="popup-form-submit-button">
+                  Найти
+                </button>
+              </p>
+            </form>
+          </div>
         </section>
-        <section class="interactive-map"></section>
       </main>
 
       <footer class="main-footer">

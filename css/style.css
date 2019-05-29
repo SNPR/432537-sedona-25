@@ -220,9 +220,10 @@ a:active {
 .offer {
   text-align: center;
   margin-bottom: 132px;
-  width: 434px;
+  width: 459px;
   display: block;
-  margin: 0 auto 34px;
+  margin: 0 auto 132px;
+  padding: 0 20px;
 }
 
 .offer p:first-child {
@@ -236,16 +237,18 @@ a:active {
   line-height: 24px;
 }
 
-.hotel-order-popup {
-  line-height: 26px;
-  font-weight: 700;
-  width: 568px;
+.hotel-order {
+  position: relative;
 }
 
 .hotel-order-popup {
   position: absolute;
-  left: 316px;
-  bottom: 78px;
+  left: 50%;
+  margin-left: -284px;
+  top: -86px;
+  line-height: 26px;
+  font-weight: 700;
+  width: 568px;
 }
 
 .order-popup-form {
@@ -330,12 +333,6 @@ a:active {
 .popup-form-submit-button:active {
   background-color: #5496bd;
   color: rgba(255, 255, 255, 0.3);
-}
-
-.interactive-map {
-  background: url("../img/main-map.jpg") left bottom no-repeat;
-  background-position: 0 0;
-  height: 473px;
 }
 
 .main-footer {
