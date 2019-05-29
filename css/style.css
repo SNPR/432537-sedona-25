@@ -457,14 +457,12 @@ a:active {
 
 .hotels-list {
   list-style: none;
-  padding-left: 72px;
-  padding-right: 70px;
 }
 
 .hotel-item {
   border-bottom: 1px solid #f9f9f9;
   display: flex;
-  margin-bottom: 61px;
+  padding: 0px 72px 61px 32px;
 }
 
 .hotel-item:last-of-type {
@@ -551,8 +549,9 @@ a:active {
 
 .hotel-search-result {
   display: flex;
-  padding-left: 71px;
-  margin-bottom: 38px;
+  padding: 14px 70px;
+  align-items: center;
+  margin-bottom: 36px;
 }
 
 .apartment-cost-wrapper {
@@ -589,6 +588,7 @@ a:active {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+  margin: 0;
 }
 
 .sort {
@@ -632,4 +632,8 @@ a:active {
   color: #81b3d2;
   -webkit-text-decoration: none;
   text-decoration: none;
+}
+
+.hotels .main-footer {
+  bottom: -86px;
 }
