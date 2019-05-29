@@ -187,7 +187,7 @@
             src="img/main-map.jpg"
             width="1200"
             height="593"
-            alt="Карта с адресом гостиницы"
+            alt="Отметка города Седона на карте"
           />
           <div class="hotel-order-popup">
             <button class="hotel-search-button">
@@ -199,16 +199,24 @@
               method="post"
             >
               <p class="popup-form-item">
-                <label class="popup-form-item-label">
+                <label for="check-in-date" class="popup-form-item-label">
                   Дата заезда:
-                  <input type="date" class="popup-form-item-input" />
                 </label>
+                <input
+                  type="date"
+                  id="check-in-date"
+                  class="popup-form-item-input"
+                />
               </p>
               <p class="popup-form-item">
-                <label class="popup-form-item-label">
+                <label for="check-out-date" class="popup-form-item-label">
                   Дата выезда:
-                  <input type="date" class="popup-form-item-input" />
                 </label>
+                <input
+                  type="date"
+                  id="check-out-date"
+                  class="popup-form-item-input"
+                />
               </p>
               <div class="popup-form-item-people-amount">
                 <label class="popup-form-item-label">
