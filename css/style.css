@@ -472,13 +472,15 @@ a:active {
 }
 
 .hotel-item {
-  border-bottom: 1px solid #f9f9f9;
+  border-top: 1px solid #f9f9f9;
   display: flex;
-  padding: 0px 72px 61px 32px;
+  padding: 30px 72px 29px 32px;
+  margin: 0;
 }
 
 .hotel-item:last-of-type {
   margin-bottom: 0;
+  border-bottom: 1px solid #f9f9f9;
 }
 
 .hotel-name h2 {
@@ -561,9 +563,9 @@ a:active {
 
 .hotel-search-result {
   display: flex;
-  padding: 14px 70px;
+  padding: 11px 70px;
   align-items: center;
-  margin-bottom: 36px;
+  margin-bottom: 0px;
 }
 
 .apartment-cost-wrapper {
@@ -647,5 +649,5 @@ a:active {
 }
 
 .hotels .main-footer {
-  bottom: -86px;
+  bottom: -120px;
 }
