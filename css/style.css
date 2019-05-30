@@ -380,8 +380,12 @@ a:active {
 }
 
 .footer-social-button {
+  display: block;
   background-color: #81b3d2;
   color: white;
+  width: 46px;
+  height: 48px;
+  margin-right: 9px;
 }
 
 .footer-social-button:hover,
