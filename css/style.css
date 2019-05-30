@@ -393,12 +393,10 @@ a:active {
 .footer-social-button:hover,
 .footer-social-button:focus {
   background-color: #669ec0;
-  color: white;
 }
 
-.footer-social-button:active {
-  background-color: #5496bd;
-  color: rgba(255, 255, 255, 0.3);
+.footer-social-button:active path {
+  opacity: 0.3;
 }
 
 .footer-copyright {
