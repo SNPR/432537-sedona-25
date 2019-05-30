@@ -377,6 +377,8 @@ a:active {
 .footer-social {
   list-style: none;
   display: flex;
+  margin: 0;
+  padding: 15px 0px 15px 44px;
 }
 
 .footer-social-button {
