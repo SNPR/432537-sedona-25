@@ -415,6 +415,15 @@ a:active {
   height: 41px;
 }
 
+.copyright-html-academy-logo:hover path,
+.copyright-html-academy-logo:focus path {
+  fill: #669ec0;
+}
+
+.copyright-html-academy-logo:active path {
+  opacity: 0.3;
+}
+
 .main-header {
   margin: 0;
   padding: 0;
