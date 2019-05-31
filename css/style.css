@@ -774,6 +774,25 @@ a:active {
   text-decoration: none;
 }
 
+.stars-container {
+  background: url("../img/hotels-icon-star.svg");
+  height: 17px;
+  background-repeat: repeat-x;
+  margin-left: auto;
+}
+
+.hotel-item:first-of-type .stars-container {
+  width: 72px;
+}
+
+.hotel-item:nth-of-type(2) .stars-container {
+  width: 54px;
+}
+
+.hotel-item:last-of-type .stars-container {
+  width: 36px;
+}
+
 .hotels .main-footer {
   bottom: -120px;
 }
