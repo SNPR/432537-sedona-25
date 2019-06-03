@@ -585,7 +585,7 @@ a:active {
 
 .hotel-search-result {
   display: flex;
-  padding: 11px 65px 10px 70px;
+  padding: 11px 60px 10px 70px;
   align-items: center;
   margin-bottom: 0px;
 }
@@ -770,9 +770,19 @@ a:active {
 
 .sort-arrows {
   margin-left: 494px;
+  display: flex;
 }
 
-.sort-arrows path {
+.sort-arrow path {
+  fill: #cacaca;
+}
+
+.sort-arrow:hover path,
+.sort-arrow:focus path {
+  fill: black;
+}
+
+.sort-arrow:active path {
   fill: #81b3d2;
 }
 
