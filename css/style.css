@@ -270,10 +270,6 @@ a:active {
   padding: 30px 0;
 }
 
-.popup-form-item-input {
-  background: blue url("../img/main-icon-calendar.svg") no-repeat 312px 8px;
-}
-
 .hotel-search-button:hover,
 .hotel-search-button:focus {
   background-color: #604e43;
@@ -295,6 +291,24 @@ a:active {
 
 .popup-form-item-label {
   margin-top: 10px;
+  position: relative;
+}
+
+.calendar-button {
+  position: absolute;
+  top: 1px;
+  left: 421px;
+  border: none;
+  background: transparent;
+}
+
+.calendar-button:hover path,
+.calendar-button:focus path {
+  fill: black;
+}
+
+.calendar-button:active path {
+  fill: #81b3d2;
 }
 
 .popup-form-item input[type="text"] {
