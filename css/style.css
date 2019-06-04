@@ -310,6 +310,10 @@ a:active {
   text-align: center;
 }
 
+.popup-form-item-people-amount button:nth-of-type(2) {
+  margin-right: 52px;
+}
+
 .decrement-button,
 .increment-button {
   width: 38px;
@@ -318,7 +322,7 @@ a:active {
   background-color: #f2f2f2;
   color: rgba(0, 0, 0, 0.3);
   font-weight: 700;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 26px;
 }
 
@@ -342,8 +346,7 @@ a:active {
 
 .popup-form-item-people-amount {
   display: flex;
-  width: 450px;
-  margin-bottom: 44px;
+  margin-bottom: 57px;
 }
 
 .popup-form-item-people-amount label:first-of-type {
@@ -362,8 +365,9 @@ a:active {
   text-transform: inherit;
   font-weight: inherit;
   background-color: #81b3d2;
-  padding: 15px 0;
+  padding: 16px 0;
   width: 458px;
+  border: none;
 }
 
 .popup-form-submit-button:focus,
