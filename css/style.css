@@ -615,7 +615,7 @@ a:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 30px 72px 29px 32px;
+  padding: 30px 63px 29px 32px;
   margin: 0;
 }
 
@@ -624,18 +624,30 @@ a:active {
   border-bottom: 1px solid #f9f9f9;
 }
 
+.hotel-description {
+  margin: 0;
+  padding: 9px 0;
+  margin-bottom: 9px;
+  display: flex;
+  justify-content: space-between;
+  width: 179px
+}
+
 .hotel-name h2 {
   font-size: 21px;
   line-height: 18px;
   font-weight: 700;
   margin: 0;
+  word-spacing: 1.5px;
+  margin-left: -2px;
 }
 
 .hotel-additional-info {
   font-weight: 700;
   color: white;
   background-color: #81b3d2;
-  padding: 5px 15px;
+  padding: 5px 16px;
+  margin-right: 4px;
 }
 
 .hotel-additional-info:hover,
@@ -653,7 +665,7 @@ a:active {
   font-weight: 700;
   color: white;
   background-color: #766357;
-  padding: 5px 15px;
+  padding: 5px 16px;
 }
 
 .hotel-reserve:hover,
@@ -668,6 +680,9 @@ a:active {
 }
 
 .hotel-rating {
+  margin: 0;
+  margin-right: 9px;
+  padding: 3px 0;
   color: #666666;
   background-color: #f2f2f2;
   width: 110px;
@@ -680,6 +695,7 @@ a:active {
 
 .hotel-rating-wrapper {
   margin-left: auto;
+  margin-top: -1px;
 }
 
 .hotel-search-form {
@@ -948,6 +964,7 @@ a:active {
   height: 17px;
   background-repeat: repeat-x;
   margin-left: auto;
+  margin-bottom: 46px;
 }
 
 .hotel-item:first-of-type .stars-container {
