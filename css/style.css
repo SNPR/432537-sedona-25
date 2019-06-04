@@ -484,10 +484,6 @@ a:active {
   margin: 25px 25px 0;
 }
 
-.hotels-container {
-  margin-bottom: 24px;
-}
-
 .hotels-list {
   list-style: none;
 }
@@ -816,5 +812,6 @@ a:active {
 }
 
 .hotels .main-footer {
-  bottom: -120px;
+  padding-top: 14px;
+  position: relative;
 }
