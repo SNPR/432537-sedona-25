@@ -630,7 +630,7 @@ a:active {
   margin-bottom: 9px;
   display: flex;
   justify-content: space-between;
-  width: 179px
+  width: 179px;
 }
 
 .hotel-name h2 {
@@ -725,7 +725,7 @@ a:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 11px 60px 10px 70px;
+  padding: 13px 60px 8px 70px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -930,7 +930,8 @@ a:active {
 }
 
 .sort-arrows {
-  margin-left: 494px;
+  margin-top: 4px;
+  margin-left: 496px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -980,6 +981,6 @@ a:active {
 }
 
 .hotels .main-footer {
-  padding-top: 14px;
+  padding-top: 9px;
   position: relative;
 }
