@@ -532,6 +532,33 @@ a:active {
   margin: 25px 25px 0;
 }
 
+.form-field-list-item-label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.checkbox-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/hotels-checkbox-off.svg") no-repeat;
+  width: 26px;
+  height: 23px;
+}
+
+.form-field-list-item-label
+  input[type="checkbox"]:checked
+  + .checkbox-indicator {
+  background: url("../img/hotels-checkbox-on.svg");
+}
+
+.form-field-list-item-label
+  input[type="checkbox"]:disabled
+  + .checkbox-indicator {
+  opacity: 0.2;
+}
+
 .hotels-list {
   list-style: none;
 }
