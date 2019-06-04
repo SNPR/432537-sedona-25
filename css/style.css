@@ -107,6 +107,7 @@ a:active {
   font-weight: 700;
   text-align: center;
   margin: 0;
+  margin-left: 3px;
   margin-bottom: 25px;
 }
 
@@ -133,7 +134,7 @@ a:active {
 }
 
 .features:nth-of-type(6) {
-  margin-bottom: 52px;
+  margin-bottom: 12px;
 }
 
 .features > .feature-item {
@@ -149,8 +150,7 @@ a:active {
   background-color: #eeeeee;
   width: 400px;
   margin: 0;
-  padding: 46px 69px;
-  padding-bottom: 60px;
+  padding: 48px 69px 58px;
 }
 
 .features-list {
@@ -233,8 +233,8 @@ a:active {
   margin-bottom: 132px;
   width: 459px;
   display: block;
-  margin: 0 auto 132px;
-  padding: 0 20px;
+  margin: 0 auto 122px;
+  padding: 10px;
 }
 
 .offer p:first-child {
@@ -246,6 +246,7 @@ a:active {
 
 .offer p:last-child {
   line-height: 24px;
+  margin: 0;
 }
 
 .hotel-order {
