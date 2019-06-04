@@ -522,9 +522,9 @@ a:active {
   display: -ms-flexbox;
   display: flex;
   margin: 0;
-  padding-left: 72px;
-  padding-right: 72px;
+  padding: 0 72px;
 }
+
 .navigation-list li {
   width: 239px;
   padding-top: 14px;
@@ -540,11 +540,12 @@ a:active {
 
 .navigation-list li:nth-child(3) {
   text-align: right;
-  margin-left: auto;
+  margin-left: 95px;
 }
 
 .navigation-list li:last-child {
   text-align: right;
+  margin-left: 5px;
 }
 
 .hotels .navigation-list li:last-child {
