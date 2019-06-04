@@ -446,7 +446,8 @@ a:active {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 21px 108px 21px 132px;
+  padding: 21px 101px 21px 132px;
+  min-height: 120px;
 }
 
 .footer-hashtag {
@@ -460,8 +461,9 @@ a:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0;
-  padding: 15px 0px 15px 44px;
+  width: 150px;
+  margin-left: -11px;
+  justify-content: space-between;
 }
 
 .footer-social-button {
@@ -478,7 +480,6 @@ a:active {
   color: white;
   width: 46px;
   height: 48px;
-  margin-right: 9px;
 }
 
 .footer-social-button:hover,
