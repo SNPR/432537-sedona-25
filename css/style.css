@@ -724,8 +724,8 @@ a:active {
 }
 
 .filter-range-title {
-  margin-bottom: 9px;
-
+  margin-left: 5px;
+  margin-bottom: 8px;
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
@@ -734,8 +734,10 @@ a:active {
 .price-controls {
   position: relative;
 
-  height: 36px;
-  margin-bottom: 20px;
+  height: 32px;
+  width: 314px;
+  margin-bottom: 18px;
+  margin-left: 2px;
 
   font-size: 0;
 
@@ -768,10 +770,16 @@ a:active {
   cursor: pointer;
 }
 
-.price-controls .min-price,
+.price-controls .min-price {
+  width: 90px;
+  padding-left: 64px;
+  margin-top: -3px;
+}
+
 .price-controls .max-price {
   width: 90px;
-  padding-left: 65px;
+  padding-left: 57px;
+  margin-top: -3px;
 }
 
 .price-controls input {
@@ -792,6 +800,8 @@ a:active {
 }
 
 .range-controls .scale {
+  margin-top: 20px;
+  margin-left: 3px;
   height: 2px;
 
   background: rgba(255, 255, 255, 0.3);
@@ -800,7 +810,6 @@ a:active {
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: white;
 }
 
@@ -824,17 +833,18 @@ a:active {
 }
 
 .range-toggle-min {
-  left: 0;
+  left: 3px;
 }
 
 .range-toggle-max {
-  left: 80%;
+  right: 45px;
 }
 
 .btn-transparent {
   display: block;
   margin: 0 auto;
-  padding: 6px 35px;
+  padding: 6px 33px;
+  margin-left: 87px;
 
   font-size: inherit;
   line-height: 20px;
