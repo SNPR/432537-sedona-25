@@ -270,6 +270,10 @@ a:active {
   padding: 30px 0;
 }
 
+.popup-form-item-input {
+  background: blue url("../img/main-icon-calendar.svg") no-repeat 312px 8px;
+}
+
 .hotel-search-button:hover,
 .hotel-search-button:focus {
   background-color: #604e43;
@@ -289,19 +293,19 @@ a:active {
   margin-top: 10px;
 }
 
-.popup-form-item input[type="date"] {
+.popup-form-item input[type="text"] {
   width: 330px;
   margin-bottom: 10px;
   padding-left: 10px;
 }
 
-.popup-form-item-people-amount input[type="number"] {
+.popup-form-item-people-amount input[type="text"] {
   width: 102px;
   margin-bottom: 10px;
   padding-left: 10px;
 }
 
-.popup-form-item-people-amount input[type="number"]:first-of-type {
+.popup-form-item-people-amount input[type="text"]:first-of-type {
   margin-right: 48px;
 }
 
