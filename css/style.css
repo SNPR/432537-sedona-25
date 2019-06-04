@@ -326,6 +326,18 @@ a:active {
   line-height: 26px;
 }
 
+.decrement-button:hover,
+.decrement-button:focus,
+.increment-button:hover,
+.increment-button:focus {
+  color: black;
+}
+
+.decrement-button:active,
+.increment-button:active {
+  color: #81b3d2;
+}
+
 .hotel-order-popup input {
   background-color: #f2f2f2;
   height: 38px;
