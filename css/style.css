@@ -35,6 +35,10 @@ a:active {
   overflow: hidden;
 }
 
+.hidden {
+  display: none;
+}
+
 .main-wrapper {
   width: 1200px;
   margin: 0 auto;
