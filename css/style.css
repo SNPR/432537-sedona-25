@@ -255,6 +255,7 @@ a:active {
 
 .sedona-map {
   background: url("../img/main-map.jpg") no-repeat;
+  border: 0;
 }
 
 .hotel-order {
