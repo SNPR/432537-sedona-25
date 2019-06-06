@@ -302,6 +302,7 @@ a:active {
 }
 
 .popup-form-item {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,12 +318,11 @@ a:active {
 
 .popup-form-item-label {
   margin-top: 10px;
-  position: relative;
 }
 
 .calendar-button {
   position: absolute;
-  top: -1px;
+  top: 10px;
   left: 421px;
   border: none;
   background: transparent;
