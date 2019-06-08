@@ -921,11 +921,18 @@ a:active {
   margin-left: 48px;
 }
 
+.sort span:first-of-type {
+  margin-right: 7px;
+}
+
 .sort-options-list {
+  padding: 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
+  width: 280px;
 }
 
 .sort-option-list-item {
@@ -933,10 +940,6 @@ a:active {
   -webkit-text-decoration: underline dotted #81b3d2;
   text-decoration: underline dotted #81b3d2;
   margin-left: 33px;
-}
-
-.sort-option-list-item:first-of-type {
-  margin-left: 0;
 }
 
 .sort-option-list-item:hover,
@@ -954,7 +957,7 @@ a:active {
 
 .sort-arrows {
   margin-top: 4px;
-  margin-left: 496px;
+  margin-left: 488px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
