@@ -64,6 +64,7 @@ a:active {
 .logo {
   position: relative;
   width: 100%;
+  background-color: #223037;
   background-image: url("../img/main-photo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
