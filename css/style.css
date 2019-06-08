@@ -447,7 +447,7 @@ a:active {
   position: absolute;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  bottom: 6px;
+  bottom: 7px;
   background-color: rgba(255, 255, 255, 0.9);
   width: 1200px;
   display: -webkit-box;
@@ -459,7 +459,7 @@ a:active {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 21px 101px 21px 132px;
+  padding: 14px 101px 17px 132px;
   min-height: 120px;
 }
 
@@ -479,6 +479,7 @@ a:active {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer-social-button {
@@ -495,6 +496,7 @@ a:active {
   color: white;
   width: 46px;
   height: 48px;
+  margin-top: 5px;
 }
 
 .footer-social-button:hover,
@@ -1002,6 +1004,6 @@ a:active {
 }
 
 .hotels .main-footer {
-  padding-top: 9px;
+  padding-top: 4px;
   position: relative;
 }
