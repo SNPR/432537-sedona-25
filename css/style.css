@@ -176,7 +176,7 @@ a:active {
 }
 
 .entertainment {
-  margin-bottom: 71px;
+  margin-bottom: 0;
 }
 
 .entertainment-list {
@@ -189,12 +189,14 @@ a:active {
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .entertainment-list-item {
   position: relative;
-  width: 400px;
-  padding: 0 50px;
+  width: 300px;
+  padding: 0px 20px;
+  margin-bottom: 71px;
 }
 
 .entertainment-list-item::before {
