@@ -391,6 +391,10 @@ a:active {
   background: transparent;
 }
 
+label.check-in-date {
+  margin-right: 23px;
+}
+
 .calendar-button:hover path,
 .calendar-button:focus path {
   fill: black;
@@ -472,7 +476,8 @@ a:active {
 }
 
 .popup-form-item-people-amount label:first-of-type {
-  margin-right: 43px;
+  margin-right: 41px;
+  margin-left: 3px;
 }
 
 .popup-form-item-people-amount label:last-of-type {
